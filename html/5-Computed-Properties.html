@@ -9,13 +9,15 @@
 </head>
 <body>
     <div id="app">
-        {{name}}
-        <h1>Hello {{name}} and he is {{age}} years old</h1>
-        <h1>{{greetting('Hello GumiHo you are so handsome')}}</h1>
-        <a v-bind:href="website">Heaven</a>
-        <input type="text" v-bind:value="name">
+        <button type="button" v-on:click="a++">Add Num A</button>
+        <button type="button" v-on:click="b++">Add Num B</button>
+
+        <p>Num A - {{a}}</p>
+        <p>Num B - {{b}}</p>
+        <p> A + age = {{addNumA()}}</p>
+        <p> B + age = {{addNumB()}}</p>
     </div>
     
-    <script src="../Js/1-funtion.js"></script>
+    <script src="../Js/5-Computed-Properties.js"></script>
 </body>
 </html>

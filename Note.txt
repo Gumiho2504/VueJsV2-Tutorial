@@ -13,4 +13,9 @@ cli
 #####Key Motifier 
     v-on: keyup.enter
 #### form input binding
-    v-model = virible.
+    v-model = virible
+#### Class and Style in vue js
+    v-bind:class = "{nameOfClass : boolean(true or false)}"
+    v-bind:Style ="{color: red,fontsize: 23px}"
+#### Condtion in Vue js
+    v-if

@@ -9,13 +9,13 @@
 </head>
 <body>
     <div id="app">
-        <button type="button" v-on:click="error = !error">Toggle Error</button>
-        <button type="button" @click="">Toggle Success</button>
-
-        <p v-bind:style="alertError"  v-if="error">This a message error</p>
+        <div class="static light" v-bind:class="{active: active, error:error}"></div>
+        <div v-bind:class="[activeClass,errorClass]"></div>
+        <div v-bind:style="{color: activeColor, fontSize : fontSize + 'px' ,backgroundColor: bgColor}">Gumiho</div>
+        <div v-bind:style="styleObject">Ma Ya</div>
 
     </div>
     
-    <script src="app.js"></script>
+    <script src="../Js/6-Class-Style.js"></script>
 </body>
 </html>

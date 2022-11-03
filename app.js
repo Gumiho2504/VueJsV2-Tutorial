@@ -1,18 +1,15 @@
 new Vue({
     el: '#app',
     data: {
-        a : "",
-        b : "",
-        age : 25
+        alertError: {
+            color: 'green',
+            fontSize: '30px',
+            fontWeight: 'bold'
+        },
+    error: false
     },
+    
     methods: {
-       addNumA : function(){
-        console.log('This is menthod of addNumA')
-        return this.a + this.age;
-       },
-       addNumB : function(){
-        console.log('This is menthod of addNumB')
-        return this.b + this.age;
-       }
+       
     }
 })
