@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS 2 Tutorail</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-bind:value="age">
+        <br>
+        <button type="button" v-on:click="add(1)">Add 1 Year</button>
+        <button type="button" v-on:click="subtrack(1)">Subtrack 1 Year</button>
+        <hr>
+        <button type="button" v-on:dblclick="add(10)">Add 10 Year</button>
+        <button type="button" v-on:dblclick="subtrack(10)">Subtrack 10 Year</button>
+        <hr>
+        <button type="button" v-on:click="greet('Hi')">Say Hi</button>
+        <button type="button" v-on:click="greet('សួស្តី')">និយាយសួស្តី</button>
+        <hr>
+        <a href="https://www.pornhub.com/" @click.prevent="haven">ឋានសួគ៍</a>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "editor.codeActionsOnSave": {
+    
+    },
+    
+    "background.fullscreen": {
+          "image": "https://z-p3-scontent.fpnh5-4.fna.fbcdn.net/v/t39.30808-6/276277804_666785477896012_1896788598816338161_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHIBETTkzgdzc6qvoVWpkQLNb0ZL3QVCjQ1vRkvdBUKNBfYSFHbmcrbv6RiSnM_no2sAqllpit7z3Ex8GiVS5w8&_nc_ohc=yiDhcQ9POPQAX9zmUr3&_nc_zt=23&_nc_ht=z-p3-scontent.fpnh5-4.fna&oh=00_AfAJURJXEMPXpEV0t_wqq5IzbkSDri-9f4k_KCIE692ArQ&oe=63677A4B", // url of your image
+          "opacity": 0.95, // 0.85 ~ 0.95 recommended
+          "size": "contain" // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+    }
+      
+    
+        
+      
+}

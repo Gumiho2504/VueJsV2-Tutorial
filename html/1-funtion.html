@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS 2 Tutorail</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="app">
+        {{name}}
+        <h1>Hello {{name}} and he is {{age}} years old</h1>
+        <h1>{{greetting('Hello GumiHo you are so handsome')}}</h1>
+        <a v-bind:href="website">Heaven</a>
+        <input type="text" v-bind:value="name">
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

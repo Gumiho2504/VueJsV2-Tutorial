@@ -1,0 +1,16 @@
+cdn
+cli
+####Data and Method
+    v-bind use for varible
+#### event
+    v-on
+    onclick
+    dblclick = double click 
+    alert : in js  : alert
+###### eventMotifier
+    click.once = អាចចុចបានតែម្តងទេ
+    click.prevent = click on alert but not show new page
+#####Key Motifier 
+    v-on: keyup.enter
+#### form input binding
+    v-model = virible.
