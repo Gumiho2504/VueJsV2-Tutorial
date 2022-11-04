@@ -9,14 +9,19 @@
 </head>
 <body>
     <div id="app">
-        <button type="button" v-on:click="error = !error">Toggle Error</button>
-        <button type="button" @click="success = !success">Toggle Success</button>
-
-        <p v-bind:style="alertError"  v-if="error">This a message error</p>
-        <p v-bind:style="alertSuccess"  v-else="success">This a message error</p>
+        <ul>
+            <li v-for="value in object">
+                {{value}}
+            </li>
+        </ul>
+        <ul>
+            <li v-for="(i, index) in person">
+              {{index + 1}} . Name:  {{i.name}} -- Age: {{i.age}}
+            </li>
+        </ul>
         
     </div>
     
-    <script src="../Js/7-Condition.js"></script>
+    <script src="../Js/8-Loop-VueJs.js"></script>
 </body>
 </html>

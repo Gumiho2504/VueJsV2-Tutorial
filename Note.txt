@@ -19,3 +19,10 @@ cli
     v-bind:Style ="{color: red,fontsize: 23px}"
 #### Condtion in Vue js
     v-if
+    v-else
+    v-show   # add style : display : none
+#### Loop in Vue js
+    v-for= "value in object"
+#### Multi vue instance
+    var vueApp1 = new vue({});
+    var vueApp2 = new vue({});
