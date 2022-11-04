@@ -26,3 +26,7 @@ cli
 #### Multi vue instance
     var vueApp1 = new vue({});
     var vueApp2 = new vue({});
+#### Vue Component 
+    Vue.Component('greeting', {
+        template: '<p>Hi</>'
+    })
